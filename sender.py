@@ -2,7 +2,8 @@
 #Run this on a machine with Python 2.7.x only. Python 3 might show some problems!
 #This program will terminate should it encounter any errors and after completely sending the file to the receiver
 
-import socket, time, os
+import socket
+import time
 
 local = raw_input("Please input the receiver IP: ")
 s = socket.socket()
@@ -22,7 +23,7 @@ from Tkinter import Tk
 from tkFileDialog import askopenfilename
 
 Tk().withdraw()
-filename = askopenfilename() 
+filename = askopenfilename()
 filename = list(filename)
 
 for i in range(len(filename)):

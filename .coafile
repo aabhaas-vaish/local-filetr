@@ -1,0 +1,9 @@
+[cli]
+bears = PyUnusedCodeBear, LineLengthBear, SpaceConsistencyBear
+files = *py
+default_actions = *: ApplyPatchAction
+use_spaces = True
+
+[Readmefile]
+bears = LineLengthBear
+files = README.md
